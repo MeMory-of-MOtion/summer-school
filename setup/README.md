@@ -5,9 +5,9 @@ image. We expect better performances with Docker, but VirtualBox is easier to us
 
 Please choose one :)
 
-*If you feel adventurous, you can also try to setup the softwares directly on your computer, but you're on your own: due
-to limited time, no support will be provided by the Summer School, you'll have to ask for help in the project's issue
-trackers, without guarantees*
+*If you feel adventurous, you can also try to setup the softwares directly on your computer. But you're on your own! Due
+to limited time, no support will be provided by the Summer School. You can ask for help in the project's issue trackers,
+but without time guarantees. On Ubuntu 18.04, running setup.sh as root should do most of the work, though.*
 
 ## Start the image and say hi to TALOS
 

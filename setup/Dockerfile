@@ -9,8 +9,7 @@ USER student
 WORKDIR /home/student
 
 ENV PATH=/opt/openrobots/bin:$PATH \
-    LD_LIBRARY_PATH=/opt/openrobots/lib \
-    ROS_PACKAGE_PATH=/opt/openrobots/share
+    LD_LIBRARY_PATH=/opt/openrobots/lib
 
 EXPOSE 6000 7000 8888
 CMD jupyter notebook --no-browser --ip='*'

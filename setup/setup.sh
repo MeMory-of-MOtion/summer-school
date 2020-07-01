@@ -19,7 +19,6 @@ pip3 install --no-cache-dir jupyter meshcat
 echo /opt/openrobots/lib/python3.6/site-packages > /usr/lib/python3/dist-packages/robotpkg.pth
 echo "export PATH=/opt/openrobots/bin:$PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=/opt/openrobots/lib" >> ~/.bashrc
-echo "export ROS_PACKAGE_PATH=/opt/openrobots/share" >> ~/.bashrc
 
 # Cleanup (avoid useless space on docker image)
 rm -rf /var/lib/apt/lists/*
