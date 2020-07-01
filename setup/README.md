@@ -9,7 +9,7 @@ Please choose one :)
 to limited time, no support will be provided by the Summer School, you'll have to ask for help in the project's issue
 trackers, without guarantees*
 
-## Run
+## Start the image and say hi to TALOS
 
 ### with Docker
 
@@ -17,9 +17,11 @@ trackers, without guarantees*
 docker run --rm -p 6000:6000 -p 7000:7000 -p 8888:8888 -it memoryofmotion/summer-school
 ```
 
+And open the link with `127.0.0.1` in your web browser
+
 ### with VirtualBox
 
-:warning: placeholder :warning:
+Start the VirtualBox Image.
 
 ## Build
 
@@ -39,3 +41,4 @@ docker push memoryofmotion/summer-school
 3. Create a `student` main user with a `student` password
 4. `sudo apt update && sudo apt install -qqy git && git clone https://github.com/memory-of-motion/summer-school.git`
 5. `cd summer-school/setup && sudo ./setup.sh`
+6. `reboot`
