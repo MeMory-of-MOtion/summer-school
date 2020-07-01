@@ -14,7 +14,7 @@ trackers, without guarantees*
 ### with Docker
 
 ```bash
-docker run --rm -p 6000:6000 -p 7000:7000 -p 8888:8888 -it memoryofmotion/summer-school
+docker run --rm -p 7000:7000 -p 8888:8888 -it memoryofmotion/summer-school
 ```
 
 And open the link with `127.0.0.1` in your web browser
@@ -42,3 +42,5 @@ docker push memoryofmotion/summer-school
 4. `sudo apt update && sudo apt install -qqy git && git clone https://github.com/memory-of-motion/summer-school.git`
 5. `cd summer-school/setup && sudo ./setup.sh`
 6. `reboot`
+7. disable Screen Lock (settings / privacy)
+8. `cd summer-school/setup && jupyter notebook`
