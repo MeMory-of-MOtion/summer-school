@@ -1,0 +1,18 @@
+FROM ubuntu:18.04
+
+ADD setup.sh robotpkg.key /
+
+RUN /setup.sh
+RUN useradd -m student
+
+USER student
+WORKDIR /home/student
+
+ENV PATH=/opt/openrobots/bin:$PATH \
+    LD_LIBRARY_PATH=/opt/openrobots/lib \
+    ROS_PACKAGE_PATH=/opt/openrobots/share
+
+EXPOSE 6000 7000 8888
+CMD jupyter notebook --no-browser --ip='*'
+
+ADD *.ipynb ./
