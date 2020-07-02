@@ -1,6 +1,6 @@
 # Materials
 
-For tutorials, software can be installed using their repository (see submodules in [this repository](https://github.com/MeMory-of-MOtion/summer-school) to get the exact versions used during this event) but to avoid compability issues we recommend to use the following [Vistual Machine](/summer-school/virtual_machine) or [Docker container](/summer-school/docker).
+For tutorials, software can be installed using their repository (see submodules in [this repository](https://github.com/MeMory-of-MOtion/summer-school) to get the exact versions used during this event) but to avoid compability issues we recommend to use the following [Virtual Machine](/summer-school/virtual_machine) or [Docker container](/summer-school/docker).
 
 Introduction, Kinematic Planning ([Steve Tonneau](http://stevetonneau.fr/) -- [University of Edinburgh](http://www.ed.ac.uk/informatics))
  [video, slides]
