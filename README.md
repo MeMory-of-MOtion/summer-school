@@ -13,7 +13,7 @@ Expected prerequisite:
 - Basic Optimization.
 - Basic Python.
 
-If you are participating to the event at the scheduled time slots, please follow the indications in [Participate](/summer-school/participate).
+If you are participating to the event at the scheduled time slots (July 7/8/9, from 10am to 5pm **CET**), please follow the indications in [Participate](/summer-school/participate).
 
 If you want to acess recordings and materials, all the links are available in [Materials](/summer-school/materials).
 
