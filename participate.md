@@ -12,5 +12,5 @@ For the practical work sessions, question can be ask on Matrix. For each tutoria
 - the main chat where you can ask questions to your teaching assistant and interact with the other students of the room
 - the "FAQ" notepad is writable only by teaching assistants. This document is used to share relevant questions across all rooms.
 - the "Debug" notepad is writable by everyone and can be used to share code with your teaching assistant to help debugging.
-[GitHub Logo](/summer-school/riot_tutorial_setup.png)
+![matrix Tutorial setup](/summer-school/riot_tutorial_setup.png)
 + Include image
