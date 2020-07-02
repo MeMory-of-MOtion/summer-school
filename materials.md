@@ -1,6 +1,6 @@
 # Materials
 
-For tutorials, software can be installed using their GitHub repositories but to avoid compability/version issues we recommend to use the following [Vistual Machine]() or [Docker container](). +Add instruction where are the tutorial folder + please pull to get the latest version of the tuto notebooks. 
+For tutorials, software can be installed using their repository (see submodules in [this repository](https://github.com/MeMory-of-MOtion/summer-school) to get the exact versions used during this event) but to avoid compability issues we recommend to use the following [Vistual Machine](/summer-school/virtual_machine) or [Docker container](/summer-school/docker).
 
 Introduction, Kinematic Planning ([Steve Tonneau](http://stevetonneau.fr/) -- [University of Edinburgh](http://www.ed.ac.uk/informatics))
  [video, slides]
@@ -20,4 +20,4 @@ Optimal Control ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/
 [video1, video2, [slides](/summer-school/materials/memmo20ss_slides_crocoddyl.pdf), [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/crocoddyl), [FAQ](https://scalar.vector.im/etherpad/p/r.a4b2eda03c49aa15d2fac53a92980b4b)]
 
 
-If you want to access all the questions that were asked during the event, you can access the chat rooms [#memmo-ss20:matrix.org](https://matrix.to/#/#memmo-ss20:matrix.org) (here are [instructions](/summer-school/matrix) to join).
+If you want to access all the questions that were asked during the event, you can access the chat rooms [#memmo-ss20:matrix.org](https://matrix.to/#/#memmo-ss20:matrix.org) (here are [instructions](/summer-school/matrix) on how to join).

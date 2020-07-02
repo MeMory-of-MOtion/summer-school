@@ -7,14 +7,16 @@ This MEMMO Summer School focuses on Control for Legged Robots. The school is art
 
 The school is **free of charge** and all the materials are freely accessible and will be avaible on this webpage. 
 
-Expected prerequisite:
-- Linear Algebra.
-- Basic Robotics and Control.
-- Basic Optimization.
-- Basic Python.
+Expected prerequisites (levels):
+- Linear Algebra (good).
+- Robotics and Control (basic).
+- Optimization (basic).
+- Python (basic).
 
-If you are participating to the event at the scheduled time slots (July 7/8/9, from 10am to 5pm **CET**), please follow the indications in [Participate](/summer-school/participate).
+The event will run from the 7th till the 9th of July, from 10am to 5pm **CET** each day (see [Schedule](/summer-school/schedule)).
 
-If you want to acess recordings and materials, all the links are available in [Materials](/summer-school/materials).
+If you intend to [Participate](/summer-school/participate), please follow the instructions within.
 
-If you have any issue or question, please contact @mathieu_geisert:matrix.org by matrix or mathieu@robots.ox.ac.uk by e-mail.
+All related material, including videos, can be found in [Materials](/summer-school/materials).
+
+If you have any issue or questions, please contact @mathieu_geisert:matrix.org by matrix or mathieu@robots.ox.ac.uk by e-mail.
