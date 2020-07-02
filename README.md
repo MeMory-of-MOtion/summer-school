@@ -5,7 +5,7 @@ This MEMMO Summer School focuses on Control for Legged Robots. The school is art
 - [TSID](https://github.com/stack-of-tasks/tsid): Efficient Task Space Inverse Dynamics based on Pinocchio.
 - [Crocoddyl](https://github.com/loco-3d/crocoddyl): An optimal control library for robot control under contact sequence. Its solver is based on various efficient Differential Dynamic Programming (DDP)-like algorithms.
 
-The school is free of charge and all the materials are freely accessible and will be avaible on this webpage. 
+The school is **free of charge** and all the materials are freely accessible and will be avaible on this webpage. 
 
 Expected prerequisite:
 - Linear Algebra.
@@ -13,8 +13,8 @@ Expected prerequisite:
 - Basic Optimization.
 - Basic Python.
 
-If you are participating to the event at the scheduled time slots, please follow the indications in [Participate](/summer-school/participate)
+If you are participating to the event at the scheduled time slots, please follow the indications in [Participate](/summer-school/participate).
 
-If you want to acess recordings and materials, all the links are available in [Materials](/summer-school/materials)
+If you want to acess recordings and materials, all the links are available in [Materials](/summer-school/materials).
 
 If you have any issue or question, please contact @mathieu_geisert:matrix.org by matrix or mathieu@robots.ox.ac.uk by e-mail.
