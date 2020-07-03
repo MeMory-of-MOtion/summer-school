@@ -15,3 +15,5 @@ EXPOSE 6000 7000 8888
 CMD jupyter notebook --no-browser --ip='*'
 
 ADD *.ipynb ./
+VOLUME /home/student
+RUN git clone --recursive https://github.com/memory-of-motion/summer-school.git
