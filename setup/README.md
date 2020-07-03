@@ -14,7 +14,8 @@ but without time guarantees. On Ubuntu 18.04, running setup.sh as root should do
 ### with Docker
 
 ```bash
-docker run --rm -p 7000:7000 -p 8888:8888 -it memoryofmotion/summer-school
+docker volume create summer-school
+docker run --rm -p 7000:7000 -p 8888:8888 -v summer-school:/home/student -it memoryofmotion/summer-school
 ```
 
 And open the link with `127.0.0.1` in your web browser
@@ -40,7 +41,7 @@ docker push memoryofmotion/summer-school
 2. Choose a minimal installation with all defaults
 3. Create a `student` main user with a `student` password
 4. disable Screen Lock (settings / privacy)
-5. `sudo apt update && sudo apt install -qqy git && git clone --recursive https://github.com/memory-of-motion/summer-school.git`
+5. `git clone --recursive https://github.com/memory-of-motion/summer-school.git`
 6. `cd summer-school/setup`
 7. `sudo ./setup.sh`
 8. `bash`
