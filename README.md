@@ -17,6 +17,6 @@ The event will run from the 7th till the 9th of July, from 10am to 5pm **CET** e
 
 If you intend to [Participate](/summer-school/participate), please follow the instructions within.
 
-All related material, including videos, can be found in [Materials](/summer-school/materials).
+Otherwise, all related materials, including videos, can be found in [Materials](/summer-school/materials).
 
 If you have any issue or questions, please contact @mathieu_geisert:matrix.org by matrix or mathieu@robots.ox.ac.uk by e-mail.
