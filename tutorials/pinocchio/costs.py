@@ -32,7 +32,7 @@ class Cost3d:
 
     def calcDiff(self,q):
         pin.framesForwardKinematics(self.rmodel,self.rdata,q)
-        pin.computeFrameJacobians(self.rmodel,self.rdata,q)
+        pin.computeJointJacobians(self.rmodel,self.rdata,q)
         M = self.rdata.oMf[self.frameIndex]
         J = pin.getFrameJacobian(self.rmodel,self.rdata,self.frameIndex,pin.LOCAL_WORLD_ALIGNED)[:3,:]
         return 2*J.T@(M.translation-self.ptarget)
@@ -67,7 +67,7 @@ class Cost6d:
 
     def calcDiff(self,q):
         J = pin.computeFrameJacobian(self.rmodel,self.rdata,q,self.frameIndex)
-        r = self.residual6d(q)
+        r = self.residual(q)
         Jlog = pin.Jlog6(self.deltaM)
         return 2 * J.T @ Jlog.T @ r
 
@@ -95,6 +95,39 @@ class CostPosture:
         else:
             return 2*self.residual(q)
 
+### COST Gravity #####################################################################
+class CostGravity:
+    def __init__(self,rmodel,rdata,viz=None):
+        self.rmodel = rmodel
+        self.rdata = rdata
+        self.viz = viz
+    def residual(self,q):
+        return pin.computeGeneralizedGravity(self.rmodel,self.rdata,q)
+    def calc(self,q):
+        return sum(self.residual(q)**2)
+    def calcDiff(self,q):
+        g = self.residual(q)
+        G = pin.computeGeneralizedGravityDerivatives(self.rmodel,self.rdata,q)
+        return 2*G.T@g
+
+### COST Weighted Gravity #############################################################
+class CostWeightedGravity:
+    """
+    return g.T*inv(M)*g = g(q).T * aba(q,0,0) = rnea(q,0,0).T*aba(q,0,0)
+    """
+    def __init__(self,rmodel,rdata,viz=None):
+        self.rmodel = rmodel
+        self.rdata = rdata
+        self.viz = viz
+        self.v0 = np.zeros(self.rmodel.nv)  # for convenience in the evaluation
+    def calc(self,q):
+        g = pin.computeGeneralizedGravity(self.rmodel,self.rdata,q)
+        taugrav = -pin.aba(self.rmodel,self.rdata,q,self.v0,self.v0)
+        return np.dot(taugrav,g)
+    def calcDiff(self,q):
+        pin.computeABADerivatives (self.rmodel,self.rdata,q,self.v0,self.v0)
+        pin.computeRNEADerivatives(self.rmodel,self.rdata,q,self.v0,self.v0)
+        return -self.rdata.dtau_dq.T@self.rdata.ddq - self.rdata.ddq_dq.T@self.rdata.tau
 
 ### TESTS ###
 ### TESTS ###
@@ -140,3 +173,24 @@ if __name__ == "__main__":
     Tg = cost.calcDiff(q)
     Tgn = Tdiffq(cost.calc,q)
     assert( norm(Tg-Tgn)<1e-4)
+
+    ### Test CostPosture
+    CostClass = CostPosture
+    cost = CostClass(robot.model,robot.data)
+    Tg = cost.calcDiff(q)
+    Tgn = Tdiffq(cost.calc,q)
+    assert( norm(Tg-Tgn)<1e-4)
+
+    ### Test CostGravity
+    CostClass = CostGravity
+    cost = CostClass(robot.model,robot.data)
+    Tg = cost.calcDiff(q)
+    Tgn = Tdiffq(cost.calc,q)
+    assert( norm(Tg-Tgn)/cost.calc(q)<1e-4)
+
+    ### Test CostWeightedGravity
+    CostClass = CostWeightedGravity
+    cost = CostClass(robot.model,robot.data)
+    Tg = cost.calcDiff(q)
+    Tgn = Tdiffq(cost.calc,q)
+    assert( norm(Tg-Tgn)/cost.calc(q)<1e-4)
