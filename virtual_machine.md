@@ -9,7 +9,7 @@
 ## Update the notebooks
 
 The VirtualBox or Docker images might not contain the latest version of the tutorials so please pull the latest modifications before each tutorial. To do that :
-1. If running in one of the terminal, kill jupyter notebook using ctrl+C.
+1. If running in one of the terminals, kill jupyter notebook using ctrl+C.
 1. Pull changes from the repository:
 ```bash
 cd ~/summer-school
