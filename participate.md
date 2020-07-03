@@ -2,7 +2,7 @@
 
 This summer school is a fully virtual event.
 
-For the videoconference system, we are using BigBlueButton. To join the meeting, use the following link [https://webconf.laas.fr/b/nic-nvh-9ju](https://webconf.laas.fr/b/nic-nvh-9ju) at the [scheduled time slots](/summer-school/schedule).
+For the videoconference system, we are using BigBlueButton. To join the meeting, use the following link [https://seminar.laas.fr/b/gui-u11-1ox](https://seminar.laas.fr/b/gui-u11-1ox) at the [scheduled time slots](/summer-school/schedule).
 
 Tutorials are based on Python notebooks. Software can be installed using [the repositories](/summer-school/repositories) but to avoid compability issues we recommend to use the following [Virtual Machine](/summer-school/virtual_machine) or [Docker container](/summer-school/docker).
 

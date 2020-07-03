@@ -6,7 +6,7 @@ but without time guarantees.*
 
 ## From binary
 
-On Ubuntu 18.04, running [setup.sh](/summer-school/setup/setup.sh) as root should do most of the work.
+On Ubuntu 18.04, running [setup.sh](/summer-school/setup/setup.sh) as root should do most of the work...
 
 ## From source
 
