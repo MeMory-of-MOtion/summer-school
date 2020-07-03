@@ -18,5 +18,6 @@ The VirtualBox or Docker images might not contain the latest version of the note
 ```bash
 docker run --rm -v summer-school:/home/student \
 -it memoryofmotion/summer-school \
-git -C summer-school pull --rebase --recurse-submodules --ff-only
+git -C summer-school pull --rebase \
+--recurse-submodules --ff-only
 ```
