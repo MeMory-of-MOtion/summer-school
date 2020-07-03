@@ -14,7 +14,6 @@ but without time guarantees. On Ubuntu 18.04, running setup.sh as root should do
 ### with Docker
 
 ```bash
-docker volume create summer-school
 docker run --rm -p 7000:7000 -p 8888:8888 -v summer-school:/home/student -it memoryofmotion/summer-school
 ```
 
