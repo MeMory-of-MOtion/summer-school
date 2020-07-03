@@ -10,5 +10,5 @@ docker run --rm -p 7000:7000 -p 8888:8888 -v summer-school:/home/student -it mem
 
 ## Update the notebooks
 
-The VirtualBox or Docker images might not contain the latest version of the tutorial so please pull the latest modifications before each tutorial.
+The VirtualBox or Docker images might not contain the latest version of the tutorials so please pull the latest modifications before each tutorial.
 
