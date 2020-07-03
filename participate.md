@@ -4,7 +4,7 @@ This summer school is a fully virtual event.
 
 For the videoconference system, we are using BigBlueButton. To join the meeting, use the following link [https://webconf.laas.fr/b/nic-nvh-9ju](https://webconf.laas.fr/b/nic-nvh-9ju) at the [scheduled time slots](/summer-school/schedule).
 
-Tutorials are based on Python notebooks. Software can be installed using their repository (see submodules in [this repository](https://github.com/MeMory-of-MOtion/summer-school) to get the exact versions used during the event) but to avoid compability issues we recommend to use the following [Virtual Machine](/summer-school/virtual_machine) or [Docker container](/summer-school/docker).
+Tutorials are based on Python notebooks. Software can be installed using [the repositories](/summer-school/repositories) but to avoid compability issues we recommend to use the following [Virtual Machine](/summer-school/virtual_machine) or [Docker container](/summer-school/docker).
 
 For direct communication, we are using Matrix. Please join the main room [#memmo-ss20:matrix.org](https://matrix.to/#/#memmo-ss20:matrix.org) (here are [instructions](/summer-school/matrix) on how to join) for the latest information on the event.
 
