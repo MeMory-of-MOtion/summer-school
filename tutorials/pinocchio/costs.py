@@ -23,10 +23,10 @@ class Cost3d:
     ### --- Callback
     def callback(self,q):
         if self.viz is None: return
-        pin.framesForwardKinematics(self.model,self.rdata,q)
+        pin.framesForwardKinematics(self.rmodel,self.rdata,q)
         M = self.rdata.oMf[self.frameIndex]
-        self.viz.applyConfiguration('world/blue', pin.SE3ToXYZQUATtuple(M))
-        self.viz.applyConfiguration('world/box', self.ptarget.tolist()+[1,0,0,0])
+        #TODO Guilhem self.viz.applyConfiguration('world/blue', pin.SE3ToXYZQUATtuple(M))
+        #TODO Guilhem self.viz.applyConfiguration('world/box', self.ptarget.tolist()+[1,0,0,0])
         self.viz.display(q)
         time.sleep(1e-2)
 
