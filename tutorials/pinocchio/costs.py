@@ -129,6 +129,22 @@ class CostWeightedGravity:
         pin.computeRNEADerivatives(self.rmodel,self.rdata,q,self.v0,self.v0)
         return -self.rdata.dtau_dq.T@self.rdata.ddq - self.rdata.ddq_dq.T@self.rdata.tau
 
+### COST Posture (renewed) ###########################################################
+class CostPostureDiff:
+    def __init__(self,rmodel,rdata,qref=None, viz=None):
+        self.rmodel = rmodel
+        self.qref = qref if qref is not None else pin.randomConfiguration(rmodel)
+
+    def residual(self,q):
+        return pin.difference(self.rmodel,q,self.qref)
+
+    def calc(self,q):
+        return sum(self.residual(q)**2)
+
+    def calcDiff(self,q):
+        J,_ = pin.dDifference(self.rmodel,q,self.qref)
+        return 2*J.T@self.residual(q)
+
 ### TESTS ###
 ### TESTS ###
 ### TESTS ###
@@ -190,6 +206,13 @@ if __name__ == "__main__":
 
     ### Test CostWeightedGravity
     CostClass = CostWeightedGravity
+    cost = CostClass(robot.model,robot.data)
+    Tg = cost.calcDiff(q)
+    Tgn = Tdiffq(cost.calc,q)
+    assert( norm(Tg-Tgn)/cost.calc(q)<1e-4)
+
+    ### Test CostPostureDiff
+    CostClass = CostPostureDiff
     cost = CostClass(robot.model,robot.data)
     Tg = cost.calcDiff(q)
     Tgn = Tdiffq(cost.calc,q)
