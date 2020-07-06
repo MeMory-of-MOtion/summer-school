@@ -5,6 +5,7 @@ Compute the vector derivative of the configuration-space integrale.
 import numpy as np
 import pinocchio as pin
 
+
 def dExpSO3(quat):
     """
     Return the vector "coefficient-wise" jacobian of w->quat(x)Exp(w), which is a 4x3 matrix,
@@ -21,7 +22,7 @@ def dExpSO3(quat):
 
 def dExpQ(rmodel,q):
     """
-    Return the vector "coefficient-wise" jacobian of vq -> rmodel.integrate(q,vq), which is a 
+    Return the vector "coefficient-wise" jacobian of vq -> rmodel.integrate(q,vq), which is a
     NQ x NV matrix.
     The function is ad-hoc and only works for a robot model whose first joint is a free flyer
     and other joints are 1d (euclidean) joints.
@@ -70,7 +71,7 @@ if __name__ == "__main__":
     NQ = robot.model.nq
     NV = robot.model.nv
     q = pin.randomConfiguration(robot.model)
-    
+
     def exampleFunction(q):
         # This is important, as we are going to finite diff on q, i.e. the function
         # will receive non-normalized inputs.
@@ -131,4 +132,3 @@ if __name__ == "__main__":
 
     assert(norm(Jn@Jexp-T)<1e-4)
     assert(norm(Jn-T@dExpQ_inv(robot.model,q))<1e-4)
-

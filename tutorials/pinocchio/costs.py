@@ -40,7 +40,7 @@ class Cost3d:
         pin.computeJointJacobians(self.rmodel, self.rdata, q)
         M = self.rdata.oMf[self.frameIndex]
         J = pin.getFrameJacobian(self.rmodel, self.rdata, self.frameIndex, pin.LOCAL_WORLD_ALIGNED)[:3, :]
-        return 2*J.T@(M.translation-self.ptarget)
+        return 2 * J.T @ (M.translation - self.ptarget)
 
 
 # COST 6D #####################################################################
@@ -119,7 +119,7 @@ class CostGravity:
     def calcDiff(self, q):
         g = self.residual(q)
         G = pin.computeGeneralizedGravityDerivatives(self.rmodel, self.rdata, q)
-        return 2*G.T@g
+        return 2 * G.T @ g
 
 # COST Weighted Gravity #############################################################
 class CostWeightedGravity:
@@ -138,7 +138,7 @@ class CostWeightedGravity:
         return np.dot(taugrav, g)
 
     def calcDiff(self, q):
-        pin.computeABADerivatives (self.rmodel, self.rdata, q, self.v0, self.v0)
+        pin.computeABADerivatives(self.rmodel, self.rdata, q, self.v0, self.v0)
         pin.computeRNEADerivatives(self.rmodel, self.rdata, q, self.v0, self.v0)
         return -self.rdata.dtau_dq.T @ self.rdata.ddq - self.rdata.ddq_dq.T @ self.rdata.tau
 
@@ -157,7 +157,7 @@ class CostPostureDiff:
 
     def calcDiff(self, q):
         J, _ = pin.dDifference(self.rmodel, q, self.qref)
-        return 2 * J.T@self.residual(q)
+        return 2 * J.T @ self.residual(q)
 
 # TESTS ###
 # TESTS ###
