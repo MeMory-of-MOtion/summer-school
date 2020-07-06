@@ -1,8 +1,9 @@
+import meshcat
 import numpy as np
 import pinocchio as pin
-import meshcat
 
-### Meshcat utils
+# Meshcat utils
+
 def meshcat_material(r, g, b, a):
     import meshcat
 
@@ -16,36 +17,37 @@ def meshcat_transform(x, y, z, q, u, a, t):
     return np.array(pin.XYZQUATToSE3([x, y, z, q, u, a, t]))
 
 
-### Gepetto/meshcat abstraction
+# Gepetto/meshcat abstraction
 
-def addViewerBox(viz,name,sizex,sizey,sizez,rgba):
-    if isinstance(viz,pin.visualize.MeshcatVisualizer):
-        viz.viewer[name].set_object(meshcat.geometry.Box([sizex,sizey,sizez]), 
+def addViewerBox(viz, name, sizex, sizey, sizez, rgba):
+    if isinstance(viz, pin.visualize.MeshcatVisualizer):
+        viz.viewer[name].set_object(meshcat.geometry.Box([sizex, sizey, sizez]),
                                     meshcat_material(*rgba))
-    elif isinstance(viz,pin.visualize.GepettoVisualizer):
-        viz.viewer.gui.addBox(name,  sizex,sizey,sizez,rgba)
+    elif isinstance(viz, pin.visualize.GepettoVisualizer):
+        viz.viewer.gui.addBox(name, sizex, sizey, sizez, rgba)
     else:
-        raise AttributeError("Viewer "+str(viz.__class__)+" is not supported.")
-        
+        raise AttributeError("Viewer %s is not supported." % viz.__class__)
 
-def addViewerSphere(viz,name,size,rgba):
-    if isinstance(viz,pin.visualize.MeshcatVisualizer):
-        viz.viewer[name].set_object(meshcat.geometry.Sphere(size), 
+
+def addViewerSphere(viz, name, size, rgba):
+    if isinstance(viz, pin.visualize.MeshcatVisualizer):
+        viz.viewer[name].set_object(meshcat.geometry.Sphere(size),
                                     meshcat_material(*rgba))
-    elif isinstance(viz,pin.visualize.GepettoVisualizer):
-        viz.viewer.gui.addSphere(name,  size,rgba)
+    elif isinstance(viz, pin.visualize.GepettoVisualizer):
+        viz.viewer.gui.addSphere(name, size, rgba)
     else:
-        raise AttributeError("Viewer "+str(viz.__class__)+" is not supported.")
+        raise AttributeError("Viewer %s is not supported." % viz.__class__)
 
 
-def applyViewerConfiguration(viz,name,xyzquat):
-    if isinstance(viz,pin.visualize.MeshcatVisualizer):
+def applyViewerConfiguration(viz, name, xyzquat):
+    if isinstance(viz, pin.visualize.MeshcatVisualizer):
         viz.viewer[name].set_transform(meshcat_transform(*xyzquat))
-    elif isinstance(viz,pin.visualize.GepettoVisualizer):
-        viz.viewer.gui.applyConfiguration(name,xyzquat)
+    elif isinstance(viz, pin.visualize.GepettoVisualizer):
+        viz.viewer.gui.applyConfiguration(name, xyzquat)
         viz.viewer.gui.refresh()
     else:
-        raise AttributeError("Viewer "+str(viz.__class__)+" is not supported.")
+        raise AttributeError("Viewer %s is not supported." % viz.__class__)
+
 
 '''
 
