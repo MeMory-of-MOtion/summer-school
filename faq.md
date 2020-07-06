@@ -1,5 +1,17 @@
 # FAQ
 
+## How to clean all my modifications on docker to start on a clean setup again ?
+
+```
+docker volume rm summer-school
+```
+
+## How to get the latest version of the tutorials with Docker ?
+
+```
+docker run --rm -v summer-school:/home/student -it memoryofmotion/summer-school git -C summer-school pull --rebase --recurse-submodules --ff-only
+```
+
 ## Docker: Ports already used
 
 - Symptoms:
