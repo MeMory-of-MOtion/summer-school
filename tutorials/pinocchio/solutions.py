@@ -63,6 +63,8 @@ class SumOfCostFreeFlyer:
         Q = dExpQ_inv(self.rmodel,q)
         return Tqc@Q
 
+cost3d=Cost3d(rmodel,rdata,ptarget = np.array([2,2,-1]), viz=viz)
+costMg = CostWeightedGravity(rmodel,rdata)
 costsum = SumOfCostFreeFlyer(rmodel,rdata,[ cost3d,costMg ],[1,1e-5])
 gsum = numdiff(costsum.calc,q)
 assert(norm(gsum-costsum.calcDiff(q))<1e-5)
