@@ -12,7 +12,7 @@ echo 'deb [arch=amd64] http://robotpkg.openrobots.org/packages/debian/pub bionic
 
 # Install dependencies
 apt update -qqy
-apt install -qqy git python3-{matplotlib,pip} robotpkg-py36-{crocoddyl,tsid}
+apt install -qqy git python3-{matplotlib,pip} robotpkg-py36-{crocoddyl,tsid,qt5-gepetto-viewer-corba}
 pip3 install --no-cache-dir jupyter meshcat
 
 # Configure paths
