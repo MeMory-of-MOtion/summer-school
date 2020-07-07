@@ -14,3 +14,12 @@ For the practical-work sessions, questions can be ask on Matrix. For each tutori
 - the "Debug" notepad is writable by everyone and can be used to share code with your teaching assistant to help debugging.
 
 ![matrix Tutorial setup](/summer-school/riot_tutorial_setup.png)
+
+## Rooms for Pinocchio tutorial
+
+From 13:30 to 14:30 and from 16:00 to 17:00 are Exercises Session with questions on Riot/Matrix.
+
+Please join one of the rooms according to the first letter of your email address:
+From A to G: room 1 [https://matrix.to/#/#memmo-ss20-pinocchio-1:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-1:matrix.org)
+From H to N: room 2 [https://matrix.to/#/#memmo-ss20-pinocchio-2:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-2:matrix.org)
+From O to Z: room 3 [https://matrix.to/#/#memmo-ss20-pinocchio-3:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-3:matrix.org)
