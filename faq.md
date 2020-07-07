@@ -1,18 +1,20 @@
-# FAQ
+# Technical FAQ
 
-## How to clean all my modifications on docker to start on a clean setup again ?
+## Docker
+
+### How to clean all my modifications to start on a clean setup again ?
 
 ```bash
 docker volume rm summer-school
 ```
 
-## How to get the latest version of the tutorials with Docker ?
+### How to get the latest version of the tutorials ?
 
 ```bash
 docker run --rm -v summer-school:/home/student -it memoryofmotion/summer-school git -C summer-school pull --rebase --recurse-submodules --ff-only
 ```
 
-## Docker: Ports already used
+###  Ports already used
 
 - Symptoms:
     - `Bind for 0.0.0.0:8888 failed: port is already allocated.`
@@ -29,3 +31,9 @@ docker run --rm -v summer-school:/home/student -it memoryofmotion/summer-school 
 
     The same solution can be used for meshcat port 7000. In that case, to open meshcat, you will have to use *eg.*
     http://127.0.0.1:7001/static/
+
+## VirtualBox
+
+### Black Screeen
+
+If you don't see anything but a black screen, you should try a different fixed resolution.
