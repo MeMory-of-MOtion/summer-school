@@ -6,7 +6,7 @@ Introduction, Kinematic Planning ([Steve Tonneau](http://stevetonneau.fr/) -- [U
  [video, [slides](/summer-school/materials/memmo_summer_school_intro_Steve_Tonneau.pdf)]
 
 [Pinocchio](https://github.com/stack-of-tasks/pinocchio) Tutorials ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard) -- [LAAS-CNRS](http://projects.laas.fr/gepetto)) 
-[video1, [slides1](/summer-school/materials/memmo_summer_school_Pinnochio_Nicolas_Mansard.pdf), video2, slides2, [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/pinocchio), [FAQ](https://scalar.vector.im/etherpad/p/r.1c0d00e84d66a3f5661a6eb2d9fd92f6)]
+[video1, [slides1](/summer-school/materials/memmo_summer_school_Pinnochio_Nicolas_Mansard_1.pdf), video2, [slides2](/summer-school/materials/memmo_summer_school_Pinnochio_Nicolas_Mansard_2.pdf), [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/pinocchio), [FAQ](https://scalar.vector.im/etherpad/p/r.1c0d00e84d66a3f5661a6eb2d9fd92f6)]
 
 Contact Models ([Justin Carpentier](https://jcarpent.github.io/) -- [INRIA](https://www.di.ens.fr/)) [video, slides]
 
