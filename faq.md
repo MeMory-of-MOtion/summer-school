@@ -37,3 +37,7 @@ docker run --rm -v summer-school:/home/student -it memoryofmotion/summer-school 
 ### Black Screeen
 
 If you don't see anything but a black screen, you should try a different fixed resolution.
+
+### Password
+
+The main account is `student`, and the password is also `student`.
