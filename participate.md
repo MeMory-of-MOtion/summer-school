@@ -17,7 +17,7 @@ For the practical-work sessions, questions can be ask on Matrix. For each tutori
 
 ## Rooms for Pinocchio tutorial
 
-From 13:30 to 14:30 and from 16:00 to 17:00 are Exercises Session with questions on Riot/Matrix.
+From 13:30 to 14:30 and from 16:00 to 17:00 are Exercise Sessions with questions on Riot/Matrix.
 
 Please join one of the rooms according to the first letter of your email address:
 From A to G: room 1 [https://matrix.to/#/#memmo-ss20-pinocchio-1:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-1:matrix.org)
