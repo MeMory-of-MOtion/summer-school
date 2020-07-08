@@ -19,5 +19,6 @@ Optimal Control ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/
 [Crocoddyl](https://github.com/loco-3d/crocoddyl) Tutorial ([Carlos Mastalli](https://cmastalli.github.io/) -- [University of Edinburgh](http://www.ed.ac.uk/informatics))
 [video1, video2, [slides](/summer-school/materials/memmo20ss_slides_crocoddyl.pdf), [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/crocoddyl), [FAQ](https://scalar.vector.im/etherpad/p/r.a4b2eda03c49aa15d2fac53a92980b4b)]
 
+Videos still need to be cut be the raw videos are already available at [https://seminar.laas.fr/b/gui-u11-1ox](https://seminar.laas.fr/b/gui-u11-1ox).
 
 If you want to access all the questions that were asked during the event, you can access the chat rooms [#memmo-ss20:matrix.org](https://matrix.to/#/#memmo-ss20:matrix.org) (here are [instructions](/summer-school/matrix) on how to join).
