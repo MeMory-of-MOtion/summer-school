@@ -23,3 +23,14 @@ Please join one of the rooms according to the first letter of your email address
 - From A to G: room 1 [https://matrix.to/#/#memmo-ss20-pinocchio-1:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-1:matrix.org)
 - From H to N: room 2 [https://matrix.to/#/#memmo-ss20-pinocchio-2:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-2:matrix.org)
 - From O to Z: room 3 [https://matrix.to/#/#memmo-ss20-pinocchio-3:matrix.org](https://matrix.to/#/#memmo-ss20-pinocchio-3:matrix.org)
+
+Contact planner with pinocchio from Giulio Romualdi:
+![contact planner pinocchio](/summer-school/result_tutorial_pinocchio_giulio_romualdi.png)
+
+## Rooms for TSID tutorial
+
+From 13:30 to 14:30 and from 16:00 to 17:00 are Exercise Sessions with questions on Riot/Matrix.
+Please join one of the rooms according to the first letter of your email address:
+- From A to G: room 1 [https://matrix.to/#/#memmo-ss20-tsid-1:matrix.org](https://matrix.to/#/#memmo-ss20-tsid-1:matrix.org)
+- From H to N: room 2 [https://matrix.to/#/#memmo-ss20-tsid-2:matrix.org](https://matrix.to/#/#memmo-ss20-tsid-2:matrix.org)
+- From O to Z: room 3 [https://matrix.to/#/#memmo-ss20-tsid-3:matrix.org](https://matrix.to/#/#memmo-ss20-tsid-3:matrix.org)
