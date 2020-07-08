@@ -11,7 +11,7 @@ Introduction, Kinematic Planning ([Steve Tonneau](http://stevetonneau.fr/) -- [U
 Contact Models ([Justin Carpentier](https://jcarpent.github.io/) -- [INRIA](https://www.di.ens.fr/)) [video, [slides](/summer-school/materials/memmo_summer_school_Contact_Models_Justin_Carpentier.pdf)]
 
 [TSID](https://github.com/stack-of-tasks/tsid) Tutorials ([Andrea Del Prete](https://andreadelprete.github.io/) -- [University of Trento](https://www.unitn.it/en)) 
-[video1, [slides1](/summer-school/materials/1_joint_space_control.pdf), [slide1b](/summer-school/materials/1b_tsid_implementation_joint_space.pdf), video2, slides2, [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/tsid), [FAQ](https://scalar.vector.im/etherpad/p/r.e49f86965d701e427eaebe5b9e807ece)]
+[video1, [slides1](/summer-school/materials/1_joint_space_control.pdf), [slide1b](/summer-school/materials/1b_tsid_implementation_joint_space.pdf), video2, [slides2](/summer-school/materials/2_task_space_control.pdf), [slides2b](summer-school/materials/2b_tsid_implementation.pdf) , [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/tsid), [FAQ](https://scalar.vector.im/etherpad/p/r.e49f86965d701e427eaebe5b9e807ece)]
 
 Optimal Control ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard) -- [LAAS-CNRS](http://projects.laas.fr/gepetto))
 [video, slides]
