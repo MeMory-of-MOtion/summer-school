@@ -14,7 +14,7 @@ Contact Models ([Justin Carpentier](https://jcarpent.github.io/) -- [INRIA](http
 [video1, [slides1](/summer-school/materials/1_joint_space_control.pdf), [slide1b](/summer-school/materials/1b_tsid_implementation_joint_space.pdf), video2, [slides2](/summer-school/materials/2_task_space_control.pdf), [slides2b](summer-school/materials/2b_tsid_implementation.pdf) , [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/tsid), [FAQ](https://scalar.vector.im/etherpad/p/r.e49f86965d701e427eaebe5b9e807ece)]
 
 Optimal Control ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard) -- [LAAS-CNRS](http://projects.laas.fr/gepetto))
-[video, slides]
+[video, [slides](/summer-school/materials/memmo_summer_school_Optimal_Control_Nicolas_Mansard.pdf)]
 
 [Crocoddyl](https://github.com/loco-3d/crocoddyl) Tutorial ([Carlos Mastalli](https://cmastalli.github.io/) -- [University of Edinburgh](http://www.ed.ac.uk/informatics))
 [video1, video2, [slides](/summer-school/materials/memmo_summer_school_Crocoddyl_Carlos_Mastalli.pdf), [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/crocoddyl), [FAQ](https://scalar.vector.im/etherpad/p/r.a4b2eda03c49aa15d2fac53a92980b4b)]
