@@ -34,3 +34,11 @@ Please join one of the rooms according to the first letter of your email address
 - From A to G: room 1 [https://matrix.to/#/#memmo-ss20-tsid-1:matrix.org](https://matrix.to/#/#memmo-ss20-tsid-1:matrix.org)
 - From H to N: room 2 [https://matrix.to/#/#memmo-ss20-tsid-2:matrix.org](https://matrix.to/#/#memmo-ss20-tsid-2:matrix.org)
 - From O to Z: room 3 [https://matrix.to/#/#memmo-ss20-tsid-3:matrix.org](https://matrix.to/#/#memmo-ss20-tsid-3:matrix.org)
+
+## Rooms for Crocoddyl tutorial
+
+From 11:30 to 14:30 and from 15:00 to 17:00 are Exercise Sessions with questions on Riot/Matrix.
+Please join one of the rooms according to the first letter of your email address:
+- From A to G: room 1 [https://matrix.to/#/#memmo-ss20-crocoddyl-1:matrix.org](https://matrix.to/#/#memmo-ss20-crocoddyl-1:matrix.org)
+- From H to N: room 2 [https://matrix.to/#/#memmo-ss20-crocoddyl-2:matrix.org](https://matrix.to/#/#memmo-ss20-crocoddyl-2:matrix.org)
+- From O to Z: room 3 [https://matrix.to/#/#memmo-ss20-crocoddyl-3:matrix.org](https://matrix.to/#/#memmo-ss20-crocoddyl-3:matrix.org)
