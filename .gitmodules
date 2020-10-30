@@ -1,6 +1,6 @@
 [submodule "submodules/crocoddyl"]
 	path = submodules/crocoddyl
-	url = https://github.com/cmastalli/crocoddyl.git
+	url = https://github.com/loco-3d/crocoddyl.git
 	branch = topic/memmo-school
 [submodule "submodules/tsid"]
 	path = submodules/tsid
