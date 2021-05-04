@@ -10,7 +10,7 @@ Introduction, Kinematic Planning ([Steve Tonneau](http://stevetonneau.fr/) -- [U
 
 Contact Models ([Justin Carpentier](https://jcarpent.github.io/) -- [INRIA](https://www.di.ens.fr/)) [[slides](/summer-school/materials/memmo_summer_school_Contact_Models_Justin_Carpentier.pdf)]
 
-[TSID](https://github.com/stack-of-tasks/tsid) Tutorials ([Andrea Del Prete](https://andreadelprete.github.io/) -- [University of Trento](https://www.unitn.it/en)) 
+[TSID](https://github.com/stack-of-tasks/tsid) Tutorials ([Andrea Del Prete](https://andreadelprete.github.io/) -- [University of Trento](https://www.unitn.it/en))
 [[slides1](/summer-school/materials/1_joint_space_control.pdf), [slide1b](/summer-school/materials/1b_tsid_implementation_joint_space.pdf), [slides2](/summer-school/materials/2_task_space_control.pdf), [slides2b](/summer-school/materials/2b_tsid_implementation.pdf) , [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/tsid), [FAQ](https://scalar.vector.im/etherpad/p/r.e49f86965d701e427eaebe5b9e807ece)]
 
 Optimal Control ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard) -- [LAAS-CNRS](http://projects.laas.fr/gepetto))
@@ -19,7 +19,12 @@ Optimal Control ([Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/
 [Crocoddyl](https://github.com/loco-3d/crocoddyl) Tutorial ([Carlos Mastalli](https://cmastalli.github.io/) -- [University of Edinburgh](http://www.ed.ac.uk/informatics))
 [[slides](/summer-school/materials/memmo_summer_school_Crocoddyl_Carlos_Mastalli.pdf), [notebooks](https://github.com/MeMory-of-MOtion/summer-school/tree/master/tutorials/crocoddyl), [FAQ](https://scalar.vector.im/etherpad/p/r.a4b2eda03c49aa15d2fac53a92980b4b)]
 
-Saddly, due to a problem on the BigBlueButton server, the videos of the lectures have been lost.
-However, lectures on TSID and pinocchio of the previous winter school can be found on the [MEMMO youtube channel](https://www.youtube.com/channel/UCAIn7ZmDGY7ChSWQE3IMhLA/featured). 
-
 If you want to access all the questions that were asked during the event, you can access the chat rooms [#memmo-ss20:matrix.org](https://matrix.to/#/#memmo-ss20:matrix.org) (here are [instructions](/summer-school/matrix) on how to join).
+
+## Videos
+
+Raw records from BigBlueButton are available on the page announced for partipations:
+[https://seminar.laas.fr/b/gui-u11-1ox](https://seminar.laas.fr/b/gui-u11-1ox)
+
+
+Moreover, lectures on TSID and pinocchio of the previous winter school can be found on the [MEMMO youtube channel](https://www.youtube.com/channel/UCAIn7ZmDGY7ChSWQE3IMhLA/featured).
